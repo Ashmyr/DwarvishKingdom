@@ -1,0 +1,2224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2023-06-03 20:25 UTC\n"
+"PO-Revision-Date: 2023-06-04 06:30+0900\n"
+"Last-Translator: konami,k <konamit2008@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:12
+msgid "Dwarvish Kingdom"
+msgstr "ドワーフ王国"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:13
+msgid "DK"
+msgstr "DK"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:20
+msgid ""
+"King Mardon of Garhme has received news: an old outpost on the frontier of "
+"Dwarvish civilization has fallen, with the cause only assumed to be trolls. "
+"Join his general and advisor in an expedition to free the outpost and "
+"investigate the inner ancient tunnels of Garhme.\n"
+"\n"
+"(Intermediate level,  5 scenarios finished, ~13 planned - 3 or 4 should be "
+"dialogue only.)"
+msgstr ""
+"Garhme のMardon 王に、ある知らせが入った。ドワーフ文明の最前線である古の前哨"
+"基地が陥落、その原因はトロルであるとしか考えられないと。将軍と顧問官を遠征さ"
+"せて Garhme の古代の坑道を調査して前哨基地を解放しよう。\n"
+"\n"
+"(中級レベル、5シナリオ。今後、会話のみの3〜4シナリオを含む13シナリオ程度にな"
+"る予定です。)"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:25
+msgid "Fighter"
+msgstr "戦士"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:25
+msgid "Easy"
+msgstr "簡単"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:26
+msgid "Steelclad"
+msgstr "装甲歩兵"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:26
+msgid "Medium"
+msgstr "普通"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:27
+msgid "Lord"
+msgstr "貴族（王）"
+
+#. [campaign]: id=Dwarvish_Kingdom
+#: DwarvishKingdom\_main.cfg:27
+msgid "Hard"
+msgstr "難しい"
+
+#. [scenario]: id=00_Foreboding_News
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:5
+msgid "Foreboding News"
+msgstr "不吉な知らせ"
+
+#. [side]: type=Dwarvish Steelclad, id=Dulotmos
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:33
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:38
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:36
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:35
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:42
+msgid "Dulotmos"
+msgstr "Dulotmos"
+
+#. [side]: type=Dwarvish Lord, id=Mardon
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:49
+msgid "Mardon"
+msgstr "Mardon"
+
+#. [message]: id=sighter
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:129
+msgid "Huh? ...My Lord! Kalom approaches from the south!"
+msgstr "なにっ？...　閣下！ Kalom が南方からやってきます！"
+
+#. [message]: id=Mardon
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:133
+msgid "Let him in!"
+msgstr "入れてやれ！"
+
+#. [unit]: type=Dwarvish Pathfinder, id=Kalom
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:139
+msgid "Kalom"
+msgstr "Kalom"
+
+#. [message]: id=Kalom
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:151
+msgid "<i>*pant...pant*</i> Sire! I have come from the front lines!"
+msgstr "<i>ハァ、ハァ... </i> 閣下！私は最前線より参りました！"
+
+#. [message]: id=Mardon
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:160
+msgid ""
+"Kalom, what in the bloody -- what happened? You look like swine that came "
+"back from the butchery..."
+msgstr ""
+"Kalom よ、血だらけではないか、一体全体...何があったのだ？まるで、屠殺場から"
+"戻った豚のようだぞ..."
+
+#. [message]: id=Kalom
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:164
+msgid ""
+"The outpost... Marne, it's fallen... We held them off as long as we could, "
+"but they were too powerful. We tried to flee, but my brothers... I am the "
+"only survivor. Those damned trolls killed me boys... and I escaped with "
+"nothing but the scars you see before you... Aargh..."
+msgstr ""
+"前哨基地... Marne が陥落しました。力の限りを尽くして食い止めようとしました"
+"が、奴らはあまりに強すぎました。逃走を試みましたが、我が兄弟たちは... 生き"
+"残ったのは私だけです。あのトロルどもは我が配下の者を殺害し... 私はこの傷以外"
+"は何も携えられずに参りました、こうして、御前（おんまえ）へと... アゥゥ..."
+
+#. [message]: id=Mardon
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:173
+msgid ""
+"Those forsaken trolls! They'll pay for this! First the eastern mines, and "
+"now this? This cannot stand any longer! Dulotmos, my most loyal general, I "
+"entrust this mission to you. Take our tunnels back, and give 'em hell for "
+"what they've done!"
+msgstr ""
+"野蛮なトロルどもめ！この償いはしてもらう！東方の鉱山から始まり、次がこれとい"
+"うことか？もはや我慢ならぬ！最も忠実なる将軍 Dulotmos よ、この任務をお前に委"
+"ねよう。我らが坑道を取り戻せ、そして奴らの所業に対し、鉄槌をもって誅するの"
+"だ！"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:177
+msgid ""
+"I will gather my men, make haste, and return soon, my lord. They will pay "
+"with their blood!"
+msgstr ""
+"部下を集めて、急ぎ戻ってまいります、閣下。奴らの血で償ってもらいましょう！"
+
+#. [unit]: type=DK Dwarvish Runesmith, id=Arolmar
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:188
+msgid "Arolmar"
+msgstr "Arolmar"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:203
+msgid "Wait."
+msgstr "待ってくれ。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:207
+msgid "...yes? What is it?"
+msgstr "...ん？ どうした？"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:211
+msgid ""
+"I feel there is something more to this. This... dread, I can’t explain, but "
+"I must accompany you."
+msgstr ""
+"この先には何かがあるようだ... 恐ろしい何かが。うまく説明できないが、あなたと"
+"共にいかねばならない。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:215
+msgid "Oh?"
+msgstr "ん？"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:219
+msgid ""
+"I'm not sure. I've never felt this before. This... feeling is unlike any "
+"premonition or thought I've ever had in the slightest. I must go with you. I "
+"haven’t the slightest idea why."
+msgstr ""
+"分からない。これまで感じたことのない何かが。この感覚は... 過去に感じた予感と"
+"か思考などとは、わずかに違ってる。私はあなたに同行するべきだ。理由は全く分か"
+"らないが。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:223
+msgid ""
+"You've been at his highness’s side for years; I am sure he’ll need you more. "
+"If it’s just trolls, what could the worst be? I'll return soon; you needn't "
+"go."
+msgstr ""
+"君は長い間、閣下のそばにいたのだから、きっとあなたはもっと必要になるはずだ。"
+"もし、その何かがトロルなら、最悪というほどではないだろう？私はすぐに戻るか"
+"ら、あなたは行く必要はない。"
+
+#. [message]: id=Mardon
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:227
+msgid ""
+"Nay. If he feels he must go then so be it. I have other advisors, we’ve "
+"already had so many brothers lost, I’d rather not see another fall for my "
+"foolishness."
+msgstr ""
+"いや、もし彼が行かねばならぬと感じるのであれば、そうせよ。他にも顧問はおる。"
+"我々は既に多くの仲間を失っている。私の愚かさゆえに更なる犠牲を出すことなど望"
+"んでおらぬ。"
+
+#. [message]: id=Dulotmos
+#. substituting "me" for "my" is an intentional stylistic choice to make his speech sound more dwarven:
+#: DwarvishKingdom\scenarios\00_Foreboding_News.cfg:232
+msgid ""
+"So be it then. Arolmar, come with me. We'll get me boys and be out of here "
+"in an hour. Mardon, I will return soon."
+msgstr ""
+"おっしゃるとおりに。Arolmar 、一緒に来てくれ。部下とともに１時間後にここを離"
+"れる。Mardon 様、すぐに戻ってまいります。"
+
+#. [scenario]: id=01_Burial_Chamber
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:5
+msgid "Sanctity of the Dead"
+msgstr "死者の尊厳"
+
+#. [part]
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:17
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 12 Y\n"
+"\n"
+"I am glad to be undertaking this expedition, for I fear what has happened to "
+"my kinfolk. I have been cramped up in that castle for so long. Yes, I was "
+"doing the 'good work' but it was just bureaucracy. Regardless of how much I "
+"reassure myself, managing statistics can't distract me from the doubts that "
+"I've felt increasing in my core. Has it been good for the kingdom? Sure. But "
+"I've not seen my wife in a year, my children for a half and two! Ah, it's "
+"seems like an age since I've seen the magnificent walls, or those mushroom "
+"groves I used to tend... but 'promotions are progress', so here I am.\n"
+"\n"
+"Anyway, the company heads out toward Marne shortly. The expedition force has "
+"been gathered in Karladam, and we will soon reach that outpost that lies "
+"just ahead, I can't for all the veins remember its name."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 12 Y\n"
+"\n"
+"この遠征を任されたことを嬉しく思う。我が親族に何が起きたのか心配だからだ。非"
+"常に長いあいだ、あの城の中で窮屈な思いをしてきた。そう、私は仕事をうまくこな"
+"してはきたが、まさに官僚としての仕事だった。自分自身をいくら安心させようした"
+"ところで、統計情報の管理をすることで、私の心のうちで高まっていく疑念を消せる"
+"わけがない。これは王国のためになってきたのだろうか？そうには違いない。しか"
+"し、我が妻とは1年間、子供たちとは2年半も顔を合わせていないのだ！あぁ、あの壮"
+"大な城壁や、手入れをしたキノコ畑を見たのは、いつのことだろう... だが、「昇進"
+"することは前進すること」なのだ、だから私はここにいるのだ。\n"
+"\n"
+"とにかく、わが隊はもうすぐ Marne へ向けて出発する。遠征隊は Carradam に集めら"
+"れているから、すぐにそのさきにある前哨基地に到着する予定なのだが、どうしても"
+"基地の名前が思い出せない。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:123
+msgid "Hail Sergeant. We have come from Lord Mardon, and are headed to Marne."
+msgstr ""
+"やあ、軍曹。我々は Mardon 卿のところからやってきた。Marne へ向かっている。"
+
+#. [unit]: type=DK Dwarvish Guardsman, id=Jeman
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:129
+msgid "Jeman"
+msgstr "Jeman"
+
+#. [message]: id=Jeman
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:156
+msgid ""
+"Hail General. I am Sergeant Jeman, I command this outpost. A day or so ago I "
+"saw Kalom on his way to Mardon's castle, he came from the eastern tunnels. "
+"South of here there has been a cave in caused by a recent earthquake, I'm "
+"not quite sure how he came from Marne to here, but the southern road is "
+"impassible."
+msgstr ""
+"ご挨拶いたします、将軍。私は 軍曹の Jeman です。この前哨基地の指揮をとってお"
+"ります。昨日だったか、Kalm がMardon 様の城へ向かうのを目撃しましたが、東方の"
+"坑道からやってきました。ここの南方には最近の地震でできた洞窟があるのですが、"
+"彼がどうやって Marne からここまで来たのか全く不明です。しかし、南の道路は通行"
+"できません。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:166
+msgid ""
+"Arolmar, you've traveled these tunnels extensively, what is the shortest "
+"route to Marne that you know of?"
+msgstr ""
+"Arolmar 、君はこの坑道を何度となく通っているが、Marne までの最短路は知ってる"
+"かな？"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:170
+msgid ""
+"I believe that the eastern tunnels will lead us there, but they are rarely "
+"traveled and have become infested with beasts and other foes. They will take "
+"us through both the Feral Tunnels and Troll Territory."
+msgstr ""
+"東の坑道から行けると思うのだが、ほとんど使われていないし、獣や他の敵がはび"
+"こっている。状況からして、野獣坑道とトロル領地の両方を通ることになる。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:174
+msgid ""
+"I'm sure we can make it. It will take more than some wild creatures and "
+"trolls to stop us, and it will be a good opportunity to thin the ranks of "
+"any possible reinforcements when we retake Marne."
+msgstr ""
+"大丈夫だ。我々が野生の動物やトロルなどに足止めされることなどないし、Marne を"
+"奪還するときに敵の援軍となる兵どもを削るよい機会になる。"
+
+#. [message]: id=Jeman
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:178
+msgid ""
+"I will join you, if Marne has truly fallen, you will need as much help as "
+"you can find."
+msgstr ""
+"私も加わります、もしも Marne が本当に陥落したのならば、味方は手当たり次第、隊"
+"に加えるべきです。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:182
+msgid ""
+"Your loyalty is much appreciated. To the east is a large chamber which "
+"served as ancient burial grounds. It is inhabited by a small number of "
+"priests, if I remember correctly. They regularly maintain the memorials and "
+"mausoleums but few visit, it is bad luck to disturb the resting places of "
+"our ancestors. It shouldn't take long for us to pass through."
+msgstr ""
+"君の忠誠心に感謝する。東方には大きな部屋があって、古代の埋葬地として使用され"
+"ていた。少数の司祭たちが住んでいる... 私の記憶が間違っていなければだが。彼ら"
+"は普段、記念碑や墓石の手入れを行っているが、訪問者は数少ない。先祖たちの安息"
+"を邪魔すると不吉さをもたらすからだ。ここを抜けていくのに時間は掛からないだろ"
+"う。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:188
+msgid ""
+"This campaign is set in Garhme, a different Dwarvish domain than Knalga, but "
+"still within a reasonable contact range of it. Due to this, your recruit "
+"list and unit trees are slightly different. The Dwarves of Garhme are more "
+"tolerant of magic, thus the Fighter may advance to a Runesmith, which is now "
+"a mixed mage. The Runesmith may advance all the way to an Arcanister or to a "
+"Dwarvish Mage, which is focused more on ranged damage. Thunderers may "
+"advance to Flamethrowers and Guardsmen may advance to Spearmen. You also "
+"have the Dwarvish Alchemist which is from The Earth's Gut, functionally "
+"similar to the Elvish Shaman -> Shyde unit line."
+msgstr ""
+"このキャンペーンの舞台は Garhme で、ドワーフ領地で知られる Knalga と交流可能"
+"な範囲にある地域です。そのため、ユニットの雇用リストとレベルアップ後のユニッ"
+"トも若干異なります。\n"
+"　Garhme のドワーフは魔法への耐性も高く、戦士はルーンスミスへレベルアップ可能"
+"です。\n"
+"　ルーンスミスは遠隔攻撃も備えた複合的魔術師で、秘儀術師か魔術師へレベルアッ"
+"プ可能で、魔術師は特に遠隔攻撃に重点を置いています。\n"
+"　銃撃兵は投火兵に、警護兵は槍兵にもレベルアップ可能です。\n"
+"　また、秘術師は\"アドオンキャンペーン「地球の奥底（The Earth's Gut）」に登場"
+"するユニットで、能力面では\"エルフの呪術師\"から\"シェード\"へ至るまでの流れ"
+"と同じです。"
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:201
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:345
+msgid "Make your way through the burial ground (Move Dulotmos to 21, 23)"
+msgstr "埋葬地を通過する（ Dulotmos を座標(21,23) に移動する）"
+
+#. [objective]: condition=lose
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:205
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:353
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:223
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:208
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:491
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:425
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:637
+msgid "Death of Dulotmos"
+msgstr "Dulotmos の死"
+
+#. [objective]: condition=lose
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:209
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:357
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:227
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:212
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:495
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:429
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:641
+msgid "Death of Arolmar"
+msgstr "Arolmar の死"
+
+#. [objective]: condition=lose
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:213
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:361
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:231
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:216
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:499
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:437
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:645
+msgid "Turns run out"
+msgstr "時間切れ"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:239
+msgid "Humans? Here in our sacred burial grounds?"
+msgstr "人間がいるのか？ この、我らの神聖なる埋葬地に？"
+
+#. [message]: speaker=outlawleader
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:244
+msgid ""
+"Looks like we have some company boys; once we get rid of them, we'll be able "
+"to properly plunder. Get them!"
+msgstr ""
+"やつらのお仲間たちがいるみたいだがな、追い払えば盗みも楽にできそうだ、やっと"
+"まえ！"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:248
+msgid ""
+"You seek to defile the tombs of our ancestors! We shall drive you from these "
+"grounds!"
+msgstr "お前たちは、我らが先祖の墓を汚そうとしている！ここから追い払ってやる！"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:264
+msgid ""
+"Dwarves of ages past, I call upon you to drive the defilers from these "
+"sacred grounds!"
+msgstr ""
+"古の眠れるドワーフたち、目覚めよ！ 神聖なるこの地を汚す者たちを追い払うのだ！"
+
+#. [unit]: type=Skeleton
+#. [unit]: type=Skeleton Archer
+#. [unit]: type=Revenant, id=arisen
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:269
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:278
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:287
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:296
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:305
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:314
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:324
+msgid "Arisen Dwarf"
+msgstr "目覚めたドワーフ"
+
+#. [message]: speaker=arisen
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:332
+msgid "Begone, invaders!"
+msgstr "去れ、侵入者ども！"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:336
+msgid "Arolmar, what have you done?"
+msgstr "Arolmar 、何をしたんだ？"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:340
+msgid ""
+"I have invoked an ancient enchantment! Some of the great Dwarven warriors "
+"were chosen to guard these places after their death. They will return to "
+"their graves when the tomb is free from invaders."
+msgstr ""
+"古代の魔法を用いたのだ！偉大なるドワーフ戦士たちは、その死後もこの地を守護す"
+"るため選ばれたのだ。侵入者の手から墓が開放されれば、また元の場所に戻るのだ。"
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:349
+msgid "Defeat the outlaw leader (Optional)"
+msgstr "無法者のリーダーを倒す（任意）"
+
+#. [unit]: type=Dwarvish Ulfserker, id=Semas
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:379
+msgid "Semas"
+msgstr "Semas"
+
+#. [message]: speaker=Semas
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:398
+msgid "Thank you for defeating those men; I am forever in your debt."
+msgstr "ありがとうございます、あいつらを倒していただいて。一生恩にきます。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:402
+msgid "You are welcome; what is your name?"
+msgstr "まあまあ、君、名前はなんというのかね？"
+
+#. [message]: speaker=Semas
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:406
+msgid ""
+"I am Semas. I was sent out with some others to begin relations with some "
+"recently established human clans. They ambushed us and took me prisoner. "
+"They tried to force me to bring them to a treasure storehouse, but I "
+"convinced them that there would be greater wealth here in the Burial "
+"Grounds. I escaped and fled south. They sent a detachment to find and kill "
+"me but I got the best of them. Thankfully it seems they did not find "
+"anything before you arrived."
+msgstr ""
+"Semas といいます。最近定着した人間族たちと交流を持つために派遣された一団の一"
+"人でした。奴らに待ち伏せされ、捕虜になったのです。宝物庫へ連れていく行くよう"
+"脅されましたが、ここ、Burial Grounds の地に行けばもっと多くの財宝があると説得"
+"したのです。そうして私は脱走して南へと逃走しました。奴らは私を殺すために幾人"
+"かの追手を放ちましたが、返り討ちにしてやりました。あなた方が到着し、幸いにも"
+"奴らは、おそらく財宝を見つけることなく敗れたのです。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:410
+msgid ""
+"You are a brave soul, Semas; may I ask for your help in our mission? Marne "
+"has been overrun by trolls."
+msgstr ""
+"勇気がある人物だな、Semas よ、我々の作戦を手助けしてくれるかな？Marne がトロ"
+"ルに占領されてしまったのだ。"
+
+#. [message]: speaker=Semas
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:414
+msgid ""
+"You killed those raiders, so I shall stay by your side until Marne has been "
+"retaken, unless death claims me first."
+msgstr ""
+"あの略奪者どもをやっつけてくれましたし、Marne が取り戻されるまで私はお側に仕"
+"えます。この命のある限り。"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:418
+msgid "Your duty is fulfilled; rest now in peace, guardians of our ancestors."
+msgstr ""
+"あなた方の責務は果たされましたぞ、さあ安らかにお眠りください、我らが先祖の守"
+"護者よ。"
+
+#. [message]: speaker=unit
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:435
+msgid ""
+"This must be where the raiders came from, but the tunnel seems to twist away "
+"from where we need to go."
+msgstr ""
+"侵略者どもは、ここから来たに違いない。だがこの坑道は、我々の目的地までは曲が"
+"りくねっていそうだ。"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:460
+msgid ""
+"Marne needs us, if we must return later to drive these outlaws away, then so "
+"be it! Marne isn't too far away, we could make it if we hurry."
+msgstr ""
+"Marne が我々を必要としているのだ、ここの無法者たちを追い払うために、またここ"
+"へ戻らねばならなければ、そうするまでのことだ！ Marne はさほど遠くはない、急げ"
+"ば間に合うはずだ。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\01_Burial_Chamber.cfg:474
+msgid "Onward! May we bring swift liberation to Marne!"
+msgstr "前進するぞ！Marne を早々に開放するのだ！"
+
+#. [scenario]: id=02_Feral_Tunnels
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:5
+msgid "Feral Tunnels"
+msgstr "野獣坑道"
+
+#. [part]
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:16
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 14 Y\n"
+"\n"
+"The march these past few days has left me with much time to think. I find "
+"myself wondering about the state of our Kingdom, about all the clans we have "
+"lost contact with, and how the other Dwarven Kingdoms can or do not "
+"communicate with us. The only ones left are a smattering of smaller clans "
+"between here and Wesnoth. Despite the long, arduous trek to Knalga, its loss "
+"hit me the hardest. It was always a bulwark against all odds in the past, so "
+"its loss is an ill omen for the state of my people. We've tried to send help "
+"for nearly a decade, but orcs have infested the valleys outside their "
+"tunnels.\n"
+"\n"
+"It was not long after we became so isolated that the Trolls began their "
+"campaign of terror, engaging in guerilla warfare inside the eastern mines "
+"and slowly making their way closer. For ten years, we've battled a losing "
+"war that has drained both our money and our ability to mine resources...\n"
+"\n"
+"Now, of all places, Marne has fallen to Trolls now. I will not allow this "
+"news to become simply another event I have heard about. I will drive them "
+"from my city, even if I must join my ancestors in the afterlife to ensure it "
+"is done. May Gegran guide and protect me until my mission is complete."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 14 Y\n"
+"\n"
+"この数日間の行軍で、考えるに十分な時間が持てた。いくつかの懸念がある。我が王"
+"国の動静についてや、我々が接触しようとして失敗した部族について、そして他のド"
+"ワーフの王国は我々と連絡が取れないのか、取っていないのかについて。今残ってい"
+"るのは、ここと Wesnoth の間の一握りの小さな部族だけだ。その喪失は、Knalga へ"
+"の長く難儀な道のりにも関わらず、私に一番の打撃となっている。かつては、どんな"
+"に不利な状況に対しても防波堤となっていたのだから、それを失うことは我が民の情"
+"勢についての悪い前兆と言える。我々は10年ほど援軍を送り続けていたが、オークは"
+"坑道の外側にある渓谷を横行するようになった。\n"
+"\n"
+"トロルが恐怖の作戦を開始したのは、こうして我々が孤立して間もなくの頃だった。"
+"東部の鉱山内でゲリラ戦を展開し、徐々に間を詰めてきている。10年だ。この間、"
+"我々は争いに負け続け、資金も採掘資源掘削の技能も失ってしまった...\n"
+"今、こともあろうに Marne がトロルの手に落ちた。この知らせは他の案件とは違い、"
+"聞き流せるようなものではない。私はこの町から奴らを追い払ってやる。たとえ私が"
+"死者の世界で祖先たちと一緒になることになっても、完遂せねばならない。この作戦"
+"達成まで、我らが神 Gegran のお導きと御加護があらんことを。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:91
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 15 Y\n"
+"\n"
+"Humans in our sacred burial grounds, how dare they! The tombs of our "
+"Ancestors, the ancient Heroes of Dwarfdom, who rose from the dark and "
+"carried the foundations of our empire on their backs... They treated their "
+"memory as if it was worthless, their tombs nothing more than a treasure "
+"trove to be plundered. The fury I felt at their trespass, it was like "
+"nothing I had ever felt before, powerful, all consuming. I was unaware that "
+"I was capable of such hatred, and the thought of it scares me... \n"
+"\n"
+"After we defeated the bandits, an old dwarf by the name of Semas joined us. "
+"Though he is old, even by our own standards, he still is capable of putting "
+"up an impressive, if a little unhinged, fight."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 15 Y\n"
+"\n"
+"我らの神聖な埋葬地に入るとは、なんと不埒な人間どもがだ！古代ドワーフの英雄で"
+"ある先祖たち。暗黒の中から立ち上がり我らの帝国の基礎を築いた、その先祖たちの"
+"墓なのに...そうした功績を、奴らはまるで無価値なもののように扱っていて、もはや"
+"墓所はただ略奪されるべき宝箱にすぎないのだ。この侵害に対する我が憤怒の情は、"
+"これまでになく強く、何も手につかないほどだ。自分自身がこれほどまでに憎悪を抱"
+"くことがあるとは知らなかったし、そのことに恐れを抱くほどだ...\n"
+"\n"
+"山賊どもを倒したあと、Semas と名乗る古老のドワーフが仲間に加わった。我々の年"
+"齢の基準からしても老いているとは言え、いまだ見事な戦闘ぶりを見せてくれる。ま"
+"あ、少し狂気じみてはいるが。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:120
+msgid ""
+"We are on the outskirts of Garhme, an old outpost that used to be inhabited "
+"by priests and a small number of merchants. Across the chasm there is a "
+"small mine, long since abandoned.."
+msgstr ""
+"ここは Gahme 周辺の古い前哨基地だ。かつては司祭や、少数の商人たちが住んでいた"
+"ところだな。岩の裂け目を抜ければ、ずっと放置されてた小さな鉱山がある。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:124
+msgid ""
+"I remember my father telling me about this place when I was young. There was "
+"some sort of accident, wasn't there?"
+msgstr ""
+"若かった頃、父がこの地に関して話してくれたよ。何らかの事故があったと、違う"
+"か？"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:128
+msgid ""
+"Yes. From what I remember from scout reports which made their way to "
+"Karladam, one of the walls collapsed, exposing a tunnel heading Southeast. "
+"It didn't take long for the inhabitants of the tunnel to find their way to "
+"the breach and attack the mine. Little is remembered about the expedition "
+"inwards, or the creatures that attacked. The path has been seldom used by "
+"the Dwarves since the Trolls took the eastern mines."
+msgstr ""
+"ええ。たしか、Karladam 方面の偵察報告によれば、壁の一つが崩れ落ちて、南東方向"
+"への坑道が表に露出してしまったとか。坑道に住まう者たちが裂け目を探し出し、そ"
+"こから鉱山を襲撃するまでに時間は掛からなかった。内部への侵入や襲撃した生き物"
+"たちに関しては定かではない。トロルが東方の鉱山を略奪して、ドワーフはこの経路"
+"は殆ど使っていないんだ。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:132
+msgid ""
+"Any number of many foul creatures could await us, be careful. Some of the "
+"shacks used by the miners still stand, but many regard these tunnels as "
+"cursed. Priests and Nomads will occasionally come to live here for a time, "
+"but they don't stray far from the safety of the old castle."
+msgstr ""
+"あまたの不吉な生き物が我々を待ち構えていることだろう、気をつけるんだ。まだ、"
+"鉱夫用の小屋のいくつかは残っているが、呪われた坑道とみなされておる。時々、神"
+"官や遊牧民が一時しのぎで立ち寄ることもあるだろう、しかし、安全な古い城から遠"
+"く離れようとはせぬだろう。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:136
+msgid ""
+"Unfortunately we don't have the luxury of time. Marne has fallen and we "
+"cannot turn our backs on our people and stop here. We will brave whatever "
+"horrors this cursed hell may have to offer, we'd be no better than elves if "
+"we didn't."
+msgstr ""
+"すまんが、あまり時間がないんだ。Marne が陥落した今、民衆たちに背を向け、ここ"
+"に留まることなどできない。この呪われた地獄がどんな恐怖をもたらそうとも、勇敢"
+"に立ち向かわねばならん。我々は、エルフどもとは違うのだ。"
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:219
+msgid "Make your way through the feral tunnels (Move Dulotmos to 13, 33)"
+msgstr "この野獣化した坑道を突破する（Dulotmos を(13,33)に移動させる）"
+
+#. [message]: speaker=unit
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:253
+msgid ""
+"This is an old dwarvish storehouse; I found some papers inside, and it seems "
+"it was used by the expedition. To the east is the lake and an island "
+"inhabited by scorpions, and to the south is a tunnel that leads to the "
+"spiders' nest. I suggest the southern tunnel if we want to take the "
+"opportunity to rid ourselves of some of the threats to our frontier settlers."
+msgstr ""
+"これはドワーフの古い倉庫だ。書類をみつけたんだが、探検隊が使っていたようだ。"
+"東には湖とサソリが住んでる島があるし、南にはクモの巣に続くトンネルがあるな。"
+"これを機に探検者たちの脅威を取り除くなら、南の坑道を行くのがよさそうだ。"
+
+#. [message]: speaker=unit
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:266
+msgid ""
+"This is a very old hut. It’s abandoned and in disrepair. I see something on "
+"the collapsed table, it’s a journal entry.\n"
+"\n"
+"<i> No! No! The short ones have tracked me down! They may find me, but they "
+"will never find my preciouses! I will bury it deep, deep, somewhere on this "
+"island! Deep! They shall not find it! </i>"
+msgstr ""
+"かなり古い小屋だ。荒れ果てて廃墟になってる。壊れた机の上に何かあるな。日記み"
+"たいだ。どれどれ...\n"
+"\n"
+"<i>駄目だ！いけない！ 背の低い奴らに見つかってしまった！ 私のことはいいとして"
+"も、我が愛する者たちは、なんとしても見つからないようにしないと！よし、深く埋"
+"めよう、この島のどこかに深く深く！見つからないところに！</i>"
+
+#. [message]: speaker=unit
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:280
+msgid ""
+"Ouch! My foot! What did I just hit?\n"
+"\n"
+"Of all the things I could find down here, who would think to bury a treasure "
+"chest in <i> these </i> tunnels?"
+msgstr ""
+"痛い！　足が何かにぶつかった！一体、これは何だ？\n"
+"\n"
+"よりにもよって、ここにあるとは... <i> こんな </i>坑道に宝箱を埋めるだなんて、"
+"誰も思いもしないだろう？"
+
+#. [unit]: type=Saurian Ambusher, id=Saurz
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:296
+msgid "Saurz"
+msgstr "Saurz"
+
+#. [message]: speaker=Saurz
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:307
+msgid "No! You have taken my preciouses! No! My preciouses! Give them back!"
+msgstr ""
+"何をしやがるんだ！オレ様の最愛の者たちを奪い去るとは！やめろ！返せ！愛しき者"
+"たちを！"
+
+#. [unit]: type=Ghost, id=Oldorn
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:320
+msgid "Oldorn"
+msgstr "Oldorn"
+
+#. [message]: speaker=Oldorn
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:336
+msgid ""
+"Thank you, comrades. For decades I have laid in this place, I knew the "
+"dangers but chose to ignore them. A group of spiders came in and made this "
+"place my tomb. As the years went on I could feel the memories of those who "
+"knew me fading, and I had given up hope that any would come to avenge me. I "
+"cannot thank you enough for what you have done. Far east of here I "
+"discovered this tome, it has survived all these years, and I suspect it is "
+"more valuable than I first thought."
+msgstr ""
+"感謝する、同志たちよ。数十年間、私はこの地に身を置いてきた。危険を知りなが"
+"ら、それを無視することを選んだのだ。クモの集団が侵入してきて、ここを私の墓場"
+"にした。年が経るにつれて、私を知る者たちの記憶が薄らいでいくのが感じられ、私"
+"の仇を誰かが討ちに来てくれるという望みも捨て去っていた。君たちの為したことに"
+"は感謝の念に堪えない。この極東の地でこの書を発見したのだが、長い年月に耐え"
+"て、今なお形を失っていない。私が最初に思い描いた以上に、この書には価値がある"
+"のだろうな。"
+
+#. [message]: speaker=Oldorn
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:340
+msgid ""
+"Farewell, I wish you luck on your journey, wherever it may take you. May it "
+"end under less dire circumstances than my own, and may Gegran guide you all."
+msgstr ""
+"お別れだ、旅の幸運を祈る、どこへ行こうともな。私のように悲惨な境遇に陥らない"
+"ことを願って。そして、Gegran が導いてくれることを願って。"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:344
+msgid ""
+"I had heard of undead creatures who died without rest, their mind not able "
+"to rest at ease, but I had never met one before; it was an uncanny "
+"experience. I'm glad that we could help him, may his soul finally find rest."
+msgstr ""
+"魂の安らぎを得ることなく死んでいくという、アンデッドの話は聞いたことはあった"
+"が、実物を目にしたのは初めてで、言いようのない不思議な体験だったな。彼の力に"
+"なれてよかったよ、彼の魂が最後には安寧を得られことを願うよ。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:348
+msgid ""
+"Aye, if any of you wish you may look at the Tome. After the tunnels have "
+"been cleared I will send someone back to gather his possessions and bury his "
+"body. Perhaps he has some relatives back in Karladam whose minds can be put "
+"at ease knowing his fate, and that he is at rest now."
+msgstr ""
+"ああ、その書を見たい者がいれば見てもいいぞ。坑道内をすっきりさせたら、彼の遺"
+"品を集めて、遺体を墓地に埋葬させることにしよう。きっと Karladam には近親者が"
+"いるだろうから、彼の運命や、今は安らかとなったことを知れば安心するはずだ。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:370
+msgid "Should $unit.name| read the book?"
+msgstr "$unit.name は本を読みますか？"
+
+#. [option]
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:372
+msgid "Yes"
+msgstr "読む"
+
+#. [object]: id=wose_lore
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:376
+msgid "Wild Gnome Diary"
+msgstr "野生ノームの日記"
+
+#. [object]: id=wose_lore
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:379
+msgid ""
+"This ancient tome describes in deep detail many different types of fungal "
+"flora. Any who read this will learn in depth about the natural plants of the "
+"deep caves."
+msgstr ""
+"この古書には、数多くの様々な種類の菌類や植物についての詳細が隅々まで書き綴ら"
+"れてる。この書を読んだものは、この深い洞窟の菌類や植物の造詣が深まることだろ"
+"う。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:387
+msgid ""
+"$unit.name| learns many secrets about the deep caves and the intricacies of "
+"the flora and fungi native to the caves. They will now be able to disguise "
+"themselves within fungi from enemies. Unfortunately, the tome sealed shut "
+"when they finished reading it. It cannot be opened again."
+msgstr ""
+"$unit.name は深い洞窟の多くの秘密と洞窟に繁殖する植物や菌類の複雑な構造を学び"
+"ます。これ以降彼らは、敵から菌類の中に隠れる能力を持てます。但し、この書は読"
+"み終わると閉じられてしまい、もう二度と開くことはできません。"
+
+#. [option]
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:414
+msgid "No"
+msgstr "読まない"
+
+#. [message]: speaker=unit
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:461
+msgid ""
+"I think I see a troll; it looks like he was wounded by some of the creatures "
+"here."
+msgstr "トロルがいるようだ。ここの生き物たちによって傷ついているようだ。"
+
+#. [message]: speaker=Garug
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:465
+msgid "Dwarves! Help me!"
+msgstr "ドワーフの皆さん！助けて！"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:469
+msgid ""
+"A Troll? You know how dangerous they are! We should leave it; we are trying "
+"to save Marne from trolls for Gegran's sake!"
+msgstr ""
+"トロルか？奴らがどれほど危険なのか知ってるだろ！かまわずに行くぞ、Marne を "
+"Gegran のために 守るんだ！"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:473
+msgid ""
+"He is badly wounded, I doubt he will try to attack us, and so far there "
+"haven't been any other trolls. It may be wise to help him, even just for the "
+"sake of information."
+msgstr ""
+"あの者は、かなり傷ついている、襲ってくるとは思えないし、他の仲間がいないよう"
+"だ。彼を助ける方が賢明だ。情報も入手できるだろう。"
+
+#. [message]: id=Garug
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:499
+msgid ""
+"Thank you Dwarves. You saved Garug, Garug shall follow you back to Garug's "
+"clan."
+msgstr ""
+"ありがとう、ドワーフの皆さん。Garug を救ってくれたね。Garug はあなたたちと一"
+"緒に Garug の一族のところに戻るよ。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:503
+msgid ""
+"There were a few scattered Troll settlements the last time I came through "
+"here nearly four decades ago. They may have developed, it could be "
+"interesting to find out."
+msgstr ""
+"40年近く前に来たときは、トロルの集落がいくつか点在していた。発展しているかも"
+"しれないし、見つけるのは面白いかもしれないな。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:507
+msgid ""
+"I suppose it's fine, though I'll be wary of his presence. We are at war with "
+"the Trolls, after all."
+msgstr ""
+"いいと思うな、だが、警戒は怠るべきじゃない。何と言っても、トロルと交戦中なん"
+"だから。"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:526
+msgid ""
+"Troll territory is just through the Tunnels of Flame. We are too far to "
+"receive help from Garhme now, but soon we will be at Marne and can finally "
+"fulfill our mission."
+msgstr ""
+"炎の坑道を抜ければ、すぐにトロルの領地だ。Garhme の支援を受けるにはまだ遠すぎ"
+"るが、もうすぐ Marne の到着する。そうすれば我々の使命が全うできるな。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\02_Feral_Tunnels.cfg:530
+msgid "We'd better hurry then! Onward!"
+msgstr "よし、急いだほうがいいな！行くぞ！"
+
+#. [scenario]: id=03_Tunnels_of_Flame
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:5
+msgid "Tunnels of Flame"
+msgstr "炎の坑道"
+
+#. [part]
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:17
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 15 Y\n"
+"\n"
+"We have ventured beyond even the furthest reaches of Garhme's borders now. "
+"The trek through the Feral Tunnels was eventful and dangerous, though "
+"nothing <i> completely </i> unheard of for frontier tunnels.\n"
+"\n"
+"We are travelling through the Caverns of Flame, I am unused to the "
+"unyielding heat in these tunnels. I must step away every so often lest I "
+"ruin these pages with my sweat. Arolmar has assured me that the rail has "
+"been destroyed leaving no faster alternative route for our journey, and "
+"though every day is hell here, I cannot say that the sight of magma does not "
+"fascinate me. Truly the lifeblood of the mountain is a beautiful sight, "
+"though I cannot comprehend why Dwarves insist on living so close to it, "
+"risking the dangers and withstanding the heat from it."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 15 Y\n"
+"\n"
+"我々は今、Gahrme 国境から遥かに遠い場所に足を踏み入れている。野獣坑道の旅は波"
+"乱万丈で危険なものだったが、辺境の坑道としては<i> 全くもって前代未聞 </i>と"
+"言ってよい。\n"
+"\n"
+"炎の洞窟を通過しようとしているが、我々は、この洞窟の熱に慣れていない。汗で日"
+"記のページを汚さないよう、時には手を休めなければならない。Arolmar の話では、"
+"鉄道が壊されており、この道よりも早く進めるルートは無いらしい。ここでは毎日が"
+"地獄だが、マグマの光景に魅了されないわけではない。確かに山の生命力は美しい景"
+"観を呈している。しかし、ドワーフがなぜ危険を冒してまでマグマの近くで熱に耐え"
+"続けながらも居を構えているのか理解できない。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:164
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 15 Y\n"
+"\n"
+"Arolmar insists on allowing the Troll in our company, despite my many "
+"protests. It may seem harmless, but I cannot forget our mission to liberate "
+"a city from its kind.\n"
+"\n"
+"It's begun to tell Arolmar of its people, a tribe or group called the "
+"\"Darites\". Some of the stories its told have aught my interest, as they "
+"involve tales of trade with Drakes, Humans, and even Elves, though it seems "
+"far-fetched to me. I don't claim to know much about Trolls' minds, but I "
+"doubt such a young Troll could simply fabricate such intricate stories.\n"
+"\n"
+"Perhaps Arolmar's idea that some Troll settlements have developed to such an "
+"extent in the area have some legitimacy to them. Even if they do not exist "
+"in these tunnels I don't doubt that somewhere such a civilization exists... "
+"as much as I do not wish to believe such a leap is possible for a barbaric "
+"race such as the Trolls."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 15 Y\n"
+"\n"
+"Arolmar は、私が何度も抗議したにも関わらず、トロルを仲間に入れるよう主張して"
+"いる。無害に見えるかもしれないが、トロルの類から街を解放するという我々の使命"
+"を忘れるわけにはいかぬ。\n"
+"\n"
+"そのトロルは Arolmar に \"Darites\" という種族や集団のことを話し始めた。その"
+"話の中に興味深いものもあるにはあった。ドレークや人間、エルフまでも交易にまつ"
+"わる話などだが、どうにも私には突飛に思えるのだ。もちろん、私にトロルの心理は"
+"分からないのだが、こんなに若いトロルがこれほど込み入った話を仕立てられるとも"
+"思えない。\n"
+"\n"
+"おそらく Arolmar が言うように、この近辺にはトロルの集落がそこそこに発展してい"
+"るのは本当だろう。この坑道ではないとしても、そういう文明の地が有るのは間違い"
+"ないと思う...トロルのような蛮族にそんな急激な変化が可能だとは思いたくはない"
+"が。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:178
+msgid ""
+"The heat in here is unbearable, at least Marne shouldn't be too much further "
+"ahead..."
+msgstr ""
+"ここの熱には耐えられそうにない。少なくとも Marne はまだまだずっと先に違いない"
+"な..."
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:182
+msgid ""
+"Yes, once we are through here it is just a short trek through Troll "
+"territory until we reach Marne. Unfortunately these tunnels have become "
+"overrun with goblins, drakes and other creatures in the past couple of "
+"years. We will likely have to defeat at least one of the leaders in order to "
+"pass. However dangerous the Feral Tunnels were, they are likely nothing "
+"compared to the dangers that lurk ahead..."
+msgstr ""
+"うむ、ここを抜けさえすれば、トロルの領地を抜けていき Marne はすぐそこだ。残念"
+"だが、ここ数年、この坑道にはゴブリンやドレークなどが蔓延っている。通過するに"
+"は、少なくともリーダーの一人を倒す必要があるだろうな。野獣坑道がいかに危険だ"
+"と言っても、この先に待ち構える危険に比べれば..."
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:186
+msgid "So be it! Onwards to Marne!"
+msgstr "そうだとも！ Marne へ前進あるのみだ！"
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:204
+msgid "Explore the Tunnels of Flame"
+msgstr "炎の坑道を探検する"
+
+#. [message]: speaker=unit
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:441
+msgid "I hear noises up ahead!"
+msgstr "前方から、音が聞こえる！"
+
+#. [message]: id=Drakegeneral
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:445
+msgid "This land is ours now, troll! Leave while you have the chance!"
+msgstr "今、この土地は我々のものだ、トロルよ！今のうちに立ち去ることだな！"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:449
+msgid ""
+"Our Shamans need this land to be closer to the heat of our God! You trespass "
+"on holy ground; leave or feel our wrath!"
+msgstr ""
+"俺たちの呪術師が、我らが神の熱に近づくために、この土地が必要なんだ！貴様らは"
+"神聖なる地に侵入しやがった。立ち去れ！さもなくば、我らが怒りに触れるぞ！"
+
+#. [message]: id=Drakeleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:453
+msgid "The temple is ours, and you shall not profane it with your filth!"
+msgstr "神殿は我々のものだ、お前たちの不浄な精神で冒涜などさせぬ！"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:457
+msgid ""
+"Looks like we may have to take part in the battle that is brewing if we want "
+"to pass, but I would cut my way through a sea of enemies if I had to to get "
+"to Marne. Onward, prepare for battle!"
+msgstr ""
+"どうやら、ここを通過するには、まさに勃発しそうな戦いに加わらねばならんようだ"
+"が、Marne に行くためなら敵の海原を突っ切ってでも前進するぞ。さあ、戦闘準備"
+"だ！"
+
+#. [message]: id=Drakeleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:461
+msgid ""
+"Dwarves! You shall not take this land either! The trolls will kill you if "
+"you slay us, but I promise you safe passage through this territory should "
+"you help me crush them!"
+msgstr ""
+"ドワーフども！ この土地は奪わせぬ！ 俺たちを倒したとしても、トロルどもはお前"
+"たちを殺すだろう。だが、奴らを攻めて我らの手助けをするならば、この領地を安全"
+"に通過できることを約束しよう！"
+
+#. [message]: id=Garug
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:465
+msgid ""
+"Be careful, that is Blackrock clan, looters and killers, at war with Garug's "
+"clan. Garug will help you fight them."
+msgstr ""
+"注意してくださいね、あのトロルは Blackrock 族です。略奪と殺戮を繰り返してい"
+"て、Garug 族と交戦中なんです。Garug 族が味方してくれます。"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:469
+msgid ""
+"Do not listen to the Drake, they will roast you alive before letting you "
+"pass! Kill them and I will make your deaths quick!"
+msgstr ""
+"ドレークに耳を貸すんじゃないぞ、奴らは、お前らが通過する前に、生きたまま火炙"
+"りにするだろうよ。あいつらを殺せ、そうすれば、お前たちが苦しまないように殺し"
+"てやるからよ！"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:473
+msgid ""
+"Up until the trade routes were stretched too thin 20 years ago, scouts to "
+"this area mentioned a growing Drake civilization down here. Very receptive "
+"to trade and negotiations, bound tightly by honor and respect. They "
+"mentioned a grand marble temple which the Drakes maintained to praise their "
+"gods, it truly was quite a sight."
+msgstr ""
+"20年前に交易路が拡張されるまでは、この地域の斥候隊からはドレーク文明が発展し"
+"ていると伝えらえていた。貿易、交渉ともに非常に好意的で、名誉と尊敬によって固"
+"く結ばれていた。大理石の神殿はドレイクの神々を讃えるために維持されており、そ"
+"れは実に壮観であったという。彼らの信仰する神を祀る神殿は大理石でできていて、"
+"実に壮観だったそうだ。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:478
+msgid ""
+" All the reports mentioned a perfectly carved hole around the temple that "
+"stretched to the surface. I would side with these Drakes, the Trolls are no "
+"doubt raiders, and if we help we may be able to secure diplomatic relations "
+"between our two civilizations in the future."
+msgstr ""
+" すべての報告が語っていたのは、神殿の周りには完璧に彫られ、地表まで伸びていた"
+"穴がある、ということだった。私はこのドレークたちに味方する。トロルは間違いな"
+"く略奪者だ。我々が協力することで、将来、二つの文明間に外交関係を築けるやもし"
+"れぬ。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:482
+msgid ""
+"War makes for strange bedfellows, but our priority must be freeing Marne, by "
+"any means possible."
+msgstr ""
+"戦争によって奇妙な相棒ができるものだが、優先すべきは、何としてでも Marne を救"
+"わねばならぬということなんだ。"
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:487
+msgid "Defeat the Troll Chieftain"
+msgstr "トロルの首領を倒す"
+
+#. [message]: id=Assassin
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:589
+msgid "There he is! Kill their leader! This temple is ours!"
+msgstr "いたぞ！リーダーを殺せ！この神殿は俺たちのものだ！"
+
+#. [message]: speaker=Trollleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:603
+msgid "No! Argh!"
+msgstr "やめろ！くそー！"
+
+#. [message]: speaker=Drakegeneral
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:614
+msgid ""
+"You have saved us! For this, noble warriors, I will fight by your side for a "
+"time!"
+msgstr ""
+"君らはオレたちを救ってくれた！高潔な戦士たちよ、オレは味方となって、暫くの"
+"間、ともに戦おうぞ！"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:618
+msgid "Your help is most welcome, Sir Drake."
+msgstr "あなたの支援は大歓迎だ、ドレーク殿。"
+
+#. [message]: speaker=Drakeleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:644
+msgid ""
+"You fought with Honor, Short Ones; and I am sure that you have saved us from "
+"any future attacks from that particular group. It is only right that I "
+"provide you with repayment. I have an enthusiastic soldier who has been "
+"craving to serve for months now. With our Temple safe and his training "
+"finally complete I would like to offer his service in your party for a time. "
+"Veknor, your time has come, step forth."
+msgstr ""
+"小さき者たちよ、君らは立派に戦った。それに我々を救ってくれた。これで、あの一"
+"味は二度と攻撃してこないだろう。その礼をするのは当然のことだ。ある兵士が、"
+"ずっと前から力になりたいと切望している。神殿も無傷だし、その兵の訓練も終えた"
+"ところなのだ。暫くの間、君たちの役に立てさせたい。Veknor 、さあ、お前の出番だ"
+"ぞ。"
+
+#. [message]: speaker=Veknor
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:679
+msgid ""
+"My claws will be with you. Short ones, I am honored to fight beside such "
+"noble and determined warriors."
+msgstr ""
+"我が爪は、あなた方とともにある。小さき者たちよ、私は誇りに思う。これほど高潔"
+"で確固たる意志を持った戦士たちの傍らで戦えることを。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:683
+msgid ""
+"I humbly accept your offer, Sir Drake. We must press on, as time is short. "
+"Should we survive, I hope to return here and oversee a formal alliance "
+"between our nations. May your gods and mine bless you with prosperity, you "
+"are a noble people and I wish the best for you all."
+msgstr ""
+"その話、謹んでお受けしよう、ドレーク殿。我々は急がねばならん、時間がないの"
+"だ。我々が生き残れたなら、私は両国間の正式な同盟を統括できるよう、ここに戻っ"
+"てきたい、そう願うよ。神々と私の心が、繁栄とともに君たちとともに在らんこと"
+"を。君たちはこそ高潔な人々だ。そのためにも私は最善を尽くしたい。"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:687
+msgid ""
+"The passages through Drake territory should lead us to just south of Marne, "
+"but beware, we are entering Troll territory now."
+msgstr ""
+"ドレークの領地を抜ければ、すぐに Marne の南側に出るはずだが気を抜くなよ。いよ"
+"いよトロルの領地に入るぞ。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:693
+msgid "Onward! Time to leave this hellscape behind!"
+msgstr "前へ進め！この地獄絵をあとにする時が来た！"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:697
+msgid ""
+"That passage up ahead, through the Drake Temple; should lead us to just "
+"south of Marne. Beware, we are entering Troll territory now."
+msgstr ""
+"この先のドレーク神殿の通路を抜ければ、Marme のすぐ南側に行けるはずだ。注意し"
+"ろ、トロルの領域に入るからな。"
+
+#. [message]: speaker=Drakeleader
+#: DwarvishKingdom\scenarios\03_Tunnels_of_Flame.cfg:714
+msgid "You fought with honor..."
+msgstr "あんたは誇り高く戦った..."
+
+#. [scenario]: id=04_Troll_Domain
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:5
+msgid "Troll Domain"
+msgstr "トロルの領域"
+
+#. [part]
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:17
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 17 Y\n"
+"\n"
+"We are through the Caverns of Flame. It was not an easy journey. The Trolls "
+"were tougher than I expected, and the Drakes didn't seem entirely ready for "
+"a full-scale assault. I suppose we aren't the only ones to underestimate "
+"those beasts.\n"
+"\n"
+"Furthermore, the trek was rather interesting. I had never seen a Drake "
+"before. They are such tall creatures; more than double the height of most of "
+"my men! When a human mage visited several years ago, he talked to us about "
+"giants, ogres, all sorts of beasts. Yet, even in my wildest imagination, I "
+"couldn't imagine one more fierce than the Drakes I saw.\n"
+"\n"
+"They're majestic in their prowess and truly fearsome. In the fight, they "
+"were truly awe-inspiring and remarkable. I will remember this battle as a "
+"heroic, fierce tale to ring down to our children... mine especially... "
+"presuming they have... survived...\n"
+"\n"
+"...Regardless of how I try to distract my mind, I keep worrying if they are "
+"safe...I'm hurrying as fast as our Expedition will allow, but every day I "
+"fear I'll arrive even just a minute too late...the fear is nothing like what "
+"I've felt before. I keep questioning how long I'd spent in the Castle, if "
+"only I'd managed to visit before this attack, could I have somehow changed "
+"what happened?\n"
+"\n"
+"We're coming up on the land of the Trolls. Arolmar has told me his knowledge "
+"of these lands is lacking at best. I have one hand on my axe, another on my "
+"quill at all times. Those beasts will not stop me from getting to my home."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 17 Y\n"
+"\n"
+"炎の洞窟を通過した。容易な旅ではなかった。トロルは思ったより手強く、ドレーク"
+"は襲撃型の実戦準備がまだ整っていない様子だった。獣たちを見くびっていたのは"
+"我々だけではなかったようだ。\n"
+"\n"
+"また、この行程は興味あるものに感じられた。私はこれまでドレークを見たことがな"
+"かった。彼らは非常に高身長で、多くの我が兵の２倍以上あるのだ！数年前に人間の"
+"魔術師が訪れた時、巨人やオーガなど、あらゆる獣のことを話してくれた。しかし、"
+"私が想像力を逞しくしても、目の前のドレークほどの猛々しさは想像できなかっ"
+"た。\n"
+"\n"
+"彼らの実力たるや堂々としたもので、実に恐ろしい。彼らは戦闘でまさに畏敬の念を"
+"抱かせる驚異的な存在だった。私はこの戦いを、雄々しい猛勇の物語として記憶に留"
+"め、子供たちに語り継ぐことだろう... 特に我が子供たちに... 子供たちが生きてい"
+"ればの話だが...\n"
+"\n"
+"...どう気持ちを紛らせばよいものか、私はこの遠征をできる限り急いではいるが、そ"
+"れでも毎日、到着がたとえ1分でも遅れてはいないかと恐れている...その恐怖は、か"
+"つて感じたことのないものだ。どのくらい城に滞在していたのか、もしもこの攻撃の"
+"前に城を訪れることができたなら、なんとかこの状況を変えられたのではないか。そ"
+"う考え続けている。\n"
+"\n"
+"トロルの地に近づいてきた。Arolmar は、この土地に関する知識は殆ど持っていない"
+"と言っていた。私は常に片手に斧を、もう一方に羽ペンを持っている。あの獣どもに"
+"私の帰郷を邪魔されてなるものか。"
+
+#. [side]: id=Trollleader, type=Great Troll
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:58
+msgid "Garogun"
+msgstr "Garogun"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:143
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 17 Y\n"
+"\n"
+"Though it wasn't an easy task, we were able to save Ka'reius, the leader of "
+"the Drakes in these tunnels. From what we have gathered since the fight, the "
+"Blackrocks had been carrying out raids on the temple for <i> months </i>, "
+"and with this many of their warriors taken out, it should be a long time "
+"before they attempt another such raid. Ka'reius welcomed us with open arms, "
+"all the while boasting of our deeds to his people. We were treated as "
+"esteemed guests and were given the opportunity to experience fine Drake "
+"cuisine. While I am not accustomed to the food of the surface world, and it "
+"was a bit too sweet for my liking, I appreciated the gesture. I could tell "
+"that Dwarvish was difficult for many of the Drakes to speak, though some of "
+"them spoke as fluently as a well studied Human, whose mouths are able to "
+"speak most languages with ease."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 17 Y\n"
+"\n"
+"簡単な作業ではなかったが、この坑道にいるドレークのリーダー Ka'reius を助け出"
+"せた。この戦いで得た情報によると、Blackrock 族は、<i> 数ヶ月間 </i>この寺院を"
+"襲撃し続けていて、これだけ多数の戦士を倒したから、次の襲撃は当分は先だろうと"
+"いうことだった。Ka'reius は両手を広げて我々を歓迎し、我々の戦績を民衆に自慢し"
+"てくれた。我々は尊敬すべき客人として扱われ、ドレークの高級料理で饗された。地"
+"表世界の食事に慣れていない私には少し甘すぎたが、その心遣いに感謝した。ドレー"
+"クにとってドワーフの言葉は難しいようだが、中にはよく勉強している人間のように"
+"流暢に話す者もいて、ほとんどの言葉を容易に話していた。"
+
+# シナリオ４の修正が必要。
+# 前出の id100 と同様。
+#  "such fine warriors". As he led us down a marble path to the edge of Drake territory he boasted about his training and assured us he was ready for whatever the future of our journey may hold in store."
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:152
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 17 Y\n"
+"\n"
+"\n"
+"He showed us the Temple, something he took great pride in, and for good "
+"reason. It was a marvelous sight to behold, finely carved stone with "
+"intricate marble reliefs of legends and stories from Drake history. The "
+"other Drakes addressed Ka'reius as 'Burginar', whose meaning I'm sure has "
+"cultural significance which I lack knowledge of, roughly meaning 'Great "
+"Sage'. It seems to be the equivalent to Arolmar's rank within our own group, "
+"though I cannot be entirely sure. Though we stayed a day longer than I had "
+"hoped, the Drake who was assigned to join us seems very eager to serve "
+"beside \"such fine warriors\". As he led us down a marble path to the edge "
+"of Drake territory he boasted about his training and assured us he was ready "
+"for whatever the future of our journey may hold in store."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 17 Y\n"
+"\n"
+"\n"
+"彼は私たちを神殿へと案内してくれたが、それは、彼がそこに大きな誇りを持ってお"
+"り、確かな理由があるからだ。神殿は見る者を圧倒する美しさで、ドレークの歴史に"
+"まつわる伝説や物語が大理石のレリーフに繊細に刻まれていた。他のドレークたち"
+"は、Ka'reius のことを 'Burginar' と呼んでいたが、その名は、私の知らない文化的"
+"意味を持つに違いないのだが、おおよそは「偉大なる賢者」という意味に違いない。"
+"我々にとっての Arolmar の階級に相当すると思うが、確かかどうかは分からない。予"
+"定より１日長く滞在してしまったが、今回我々の配下となったドレークは、\"こんな"
+"に立派な戦士たち\" と共に仕えたいと、とても意欲的なようだ。ドレーク領内の端の"
+"方へ向かう大理石の道を歩きながら、彼は自分の訓練について自慢して、たとえ今後"
+"の旅で何が起ころうとも、準備はできていると言い切った。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:171
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 17 Y\n"
+"\n"
+"To my surprise, I've been warming up to the young Troll, Garug. He's begun "
+"to learn a lot about Dwarves, picking up on Dwarvish words, symbols, and "
+"even cartography. He learns faster at such studies than some of my own "
+"recruits, and his expertise is undeniable. The two of us had a brief "
+"conversation the other day. He asked questions about my homeland, which I "
+"answered with some hesitation. Despite my worries about who and how the "
+"information would be shared with, I felt myself excited to be sharing such "
+"stories with such a curious listener."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 17 Y\n"
+"\n"
+"自分でも驚いたことに、私は若手のトロル Garug に好印象を持っている。彼はドワー"
+"フについて多くを学び始めていて、ドワーフ語や記号、地図作成にまで関心がある。"
+"そういう勉強はドワーフの他の新兵よりも早く、専門知識も大したものだ。先日、二"
+"人で短い会話をした。彼は私の母国について尋ね、私は少し戸惑いながらも返答し"
+"た。情報を誰に、どのように伝えるのかという不安はあったが、好奇心旺盛な聞き手"
+"へこんな話ができることで、自分自身に心躍るものを覚えていた。"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:181
+msgid ""
+"Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 17 Y\n"
+"\n"
+"Back at the Castle there was little opportunity to share stories of my "
+"youth. I do not blame my colleagues for their dismissal, despite my own "
+"disappointment. There was indeed little time for 'idle chatter' while going "
+"about our duties there.\n"
+"\n"
+"I'd never imagined myself being able to tolerate the presence of a Troll, "
+"let alone sharing stories with him like we were old friends. It is truly "
+"extraordinary how a single experience can change your perspective from one "
+"filled with hate, to a sort of acceptance. It leads me to ponder what other "
+"views I hold which could be changed by such an experience."
+msgstr ""
+"Garhme の Dulotmos の日記から抜粋：5,127 DE, 17 Y\n"
+"\n"
+"城に戻ると、私の若い頃の話をする機会など、殆どなかった。私自身は残念に思って"
+"いたが、同僚たちが去ったことを責めるつもりはない。城で仕事をしながら「他愛の"
+"ない話」をする時間は、確かにほとんどなかった。\n"
+"\n"
+"トロルの存在に耐えられるとは思ってもみなかったし、ましてや旧友のように１対１"
+"で話を交わせるとは思ってもみなかった。たった一度の体験が、憎しみに満ちていた"
+"ものに対して、ある種の受容・許容へと見方が変化するとは、実に奇妙な話だ。こん"
+"な風に、経験によって見方が変わるようなものが、今の私自身の中に他にどんなもの"
+"があるだろうと考えるようになっていた。"
+
+#. [unit]: type=Troll Rocklobber, role=bodyguard
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:209
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:460
+msgid "Kert"
+msgstr "Kert"
+
+#. [unit]: type=Troll, role=bodyguard
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:223
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:474
+msgid "Tarech"
+msgstr "Tarech"
+
+#. [unit]: type=Troll Shaman, role=bodyguard
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:238
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:488
+msgid "Eurech"
+msgstr "Eurech"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:252
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:455
+msgid ""
+"Dulotmos and his group traveled about an hour westward, fighting their way "
+"through ever-expanding tunnels until they came across the banner of trolls "
+"splattered in a nearby pond. They knew they had reached the land of the "
+"Trolls, and looked forward to see a majestic castle, carved finely out of "
+"rocks."
+msgstr ""
+"Dulotmos とその一行は、およそ１時間、西へと進み続け、徐々に拡がる坑道を進みな"
+"がら、やがて、池の近くにトロルの旗が散らばっている所へと来ました。トロルの領"
+"土に到着したことを知ったドワーフたちは、岩を繊細に削って作られた、荘厳な城郭"
+"が是非見たいと思っていました。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:256
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:501
+msgid ""
+"About your wits! We’ve reached the land of trolls. Careful now boys, I "
+"reckon that there’s a castle of theirs."
+msgstr ""
+"君の知恵の見せどころだぞ！トロルの土地に着いたぞ。皆、用心せよ。奴らの城があ"
+"るはずだ。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:260
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:505
+msgid "Trolls ahead! We will avenge Marne! Cut those barbarians down!"
+msgstr ""
+"トロルが前方にいるぞ！Marne の街の仇を討て！あの野蛮な者たちを切り捨てるん"
+"だ！"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:264
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:509
+msgid ""
+"Dwarves! Hold your hand! We know what happened, and we are not responsible!"
+msgstr ""
+"ドワーフたちよ！堪えてくれ！何が起きたかは承知しているし、俺たちに責任は無い"
+"ぞ！"
+
+#. [message]: id=Garug
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:268
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:513
+msgid "Garug’s father is alive! Father, these dwarves saved me!"
+msgstr ""
+"Garug の父さんが生きてた！父さん、このドワーフたちはボクを助けてくれたんだ"
+"よ！"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:288
+msgid ""
+"This is your father? These trolls may be peaceful after all..  but Kalom, he "
+"claimed trolls were to blame for his end... "
+msgstr ""
+"お前の父さんなのか？やっぱり、このトロルたちは平和的じゃないか... だが、"
+"Kalom は、あいつはトロルのせいで死ぬ羽目になったと言っていたが... "
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:292
+msgid ""
+"Really? Thank you, Dwarves, for saving my son. We are forever in your debt. "
+"I know of what you speak."
+msgstr ""
+"本当なのか？ドワーフたちよ、我が息子を助けてもらったことに礼を言う。この恩は"
+"永遠に忘れるものではない。あなたが何を言っているのかは分かっている。"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:296
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:517
+msgid ""
+"Dulotmos, hold yer axe for now. It’s best to hear his words, regardless of "
+"what falsehoods they may hold. I’ll be able to assess the truth of 'em "
+"through my magic. It’s an ancient, powerful magic, and I can count on one "
+"hand the few who can use it."
+msgstr ""
+"Dulotmos よ、今は斧をとるんだ。彼の言葉に耳を貸すのが最善だ、たとえ偽りだった"
+"としてもな。私が、この魔術で真実を明かせるだろう。古代の強力な魔術であり、使"
+"える者は片手に余るほどの人数しかいない。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:300
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:521
+msgid "Speak quickly. We have little time."
+msgstr "さっさと話してくれ、時間が無い。"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:304
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:525
+msgid ""
+"About two weeks ago, we saw a small contingent of Dwarves fleeing from their "
+"outpost to the West. They had the look that told us they had faced a great "
+"foe. They were beaten, bruised, and panicked. When they came across our "
+"kind, I was nearly gave an order to let them pass peacefully, but when their "
+"gaze met ours, their shaken bodies and frightened hearts caused them to fire "
+"upon us without restraint."
+msgstr ""
+"２週間ほど前、西の前哨基地から逃げていく小数のドワーフたちを見かけた。彼らは"
+"強敵に出くわしたような顔つきだったし、打ちのめされ、傷つき、恐怖に怯えてい"
+"た。彼らが我々の種族に出くわしたとき、私は彼らが平和的に通っていけるよう命令"
+"しようとしかけたのだ。だが、彼らの視線が我々を捉えた時、その震える体と縮み上"
+"がった心が、我々に銃口を向けさせ、遠慮なしに発砲させたのだ。"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:308
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:529
+msgid ""
+"Many of my people died. I tried to order my men to not kill the Dwarves, "
+"simply disarm them or scare them off...There was too much blood between our "
+"kinds already. I did not want to share more. Many of my warriors hungered "
+"with vengeance because of the attack, and few Dwarves survived. They headed "
+"east, one of them swearing a campaign of ‘Utter Annihilation’ for what we "
+"had done..."
+msgstr ""
+"我が多くの民が死んでいった。私は部下に命じようとしたのだ、ドワーフを殺しては"
+"いかんと。武器を取り上げるか、追い払うだけにしろとな... 既に我々は種族間で多"
+"くの血を流していたし、私自身、さらなる流血は望んでいなかった。.....我が戦士た"
+"ちは戦闘がもとで復習の怒りに燃えていたし、生き残ったドワーフは、ほんの一握り"
+"だけだった。彼らは東へと足を向けて、そのうちの一人が誓ったのだ、我々の仕打ち"
+"に対しての \"全滅作戦\" とやらをな..."
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:312
+msgid ""
+"You killed them? Maybe you tell the truth, Troll, but I cannot let our "
+"brothers’ deaths go unpunished. I cannot let my kinsmen be killed without "
+"proper retribu-"
+msgstr ""
+"彼らを殺したんだな？嘘ではないのだろう、トロルよ、だが、仲間たちを殺されたま"
+"ま、黙って見逃すわけにはいかない。身内を殺されて報復せずに ー"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:316
+msgid ""
+"Dulotmos, he tells the truth. My runes allow me to see the past; what "
+"happened here. Through the earth around us, I feel it. As much as it may "
+"seem false, what he says is true -- all of it. Our kind attacked without "
+"thought, meaning to exterminate those in their way. Are we to make the same "
+"mistake?"
+msgstr ""
+"Dulotmos 、彼は真実を話しているのだ。私のルーン文字は過去が見えるのだ、ここで"
+"何が起きたかをな。この大地一帯を通して感じられる。まさかと思うかもしれない"
+"が、彼の言葉に嘘はない ― 全てにおいて。我等の種族は、考えなしに攻撃をしてき"
+"た。行く手を阻む者を排除するためにな。また同じ過ちを繰り返すつもりか？"
+
+#. [message]: speaker=narrator
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:321
+msgid "Almost a minute of uninterrupted silence passes."
+msgstr "しばし、沈黙の時が流れました。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:328
+msgid ""
+"I... accept what you have said, Arolmar. You’ve served our Kingdom for many "
+"years, and I trust your word. I just never thought I’d be peaceful to "
+"Trolls, after hearing the stories of the great wars in the East when I was "
+"young, but perhaps I was wrong. Troll, will you allow our passage?"
+msgstr ""
+"いいだろう... あなたの考えを受け入れるよ、Arolmar 。あなたは長い年月、王国に"
+"仕えてきたし、その言葉は信頼するに足る。私は、トロルと平和な関係を持とうなど"
+"とは全く考えたこともなかった。若いときに東方で起きた大きな戦闘の話を聞いて以"
+"来ね。だが、間違っていたようだ。トロルよ、我々を通してもらえるかな？"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:332
+msgid ""
+"Yes, I shall. I have more information which may interest you. My scouts "
+"found a desolate ruin where your city formerly laid. Farmlands of mushroom "
+"burned to ash, entire walls crumbled as if they were made of sand. Whatever "
+"happened there was brutal and quick. We attempted to search the ruins, but "
+"strange creatures prevented us from going further. Some were easy to crush, "
+"others were impervious to our weapons."
+msgstr ""
+"ああ、そのつもりだ。他にも君が興味を引きそうな話がある。  我が斥候が君らの街"
+"の跡に、荒れ果てた廃墟を見つけたのだ。キノコの農地は焼けて灰になり、壁全体が"
+"まるで砂でできているかのような崩れ方をしていた。そこで起きたことは残忍で、"
+"あっという間のできごとだった。オレたちは廃墟を探索しようとしたのだが、奇妙な"
+"生き物たちが行く手を阻んだ。あるものは簡単に潰せたが、あるものは武器が通用し"
+"なかった。"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:336
+msgid ""
+"Dwarves, since you rescued my son, I owe you much more than my gratitude. I "
+"extend the offer of an alliance. Safe passage through our lands, protection "
+"from dangers within and without, and trade between our peoples. We shall be "
+"there whenever you call, for whatever obstacles come your way. As a gift, I "
+"extend to you the protection of my finest bodyguards."
+msgstr ""
+"ドワーフよ、息子を救ってもらい感謝する。が、それ以上にオレは恩義を感じてい"
+"る。同盟を申し出たい。この国土での安全な通行を約束し、内外の危険から守り、民"
+"族どうしで交易を持とう。オレたちは、声がかかれば何処にでも駆けつけるし、どん"
+"な障害にも立ち向かう。さあ受け取ってくれ、オレの一番の護衛を贈ろう。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:347
+msgid ""
+"I am unsure if our King would accept this deal so readily, but if it means "
+"less bloodshed, then I believe I could accept it."
+msgstr ""
+"我らの王が、その提案を簡単に受け入れるかどうかは不確かだが、流血が減るのであ"
+"れば、私は受け入れられる。"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:351
+msgid "I am grateful to hear such."
+msgstr "それを聞けて嬉しいよ。"
+
+#. [message]: id=Trollenemy
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:369
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:577
+msgid ""
+"Sons of Rock, to Arms! Glory is ours, our clan shall finally stomp out these "
+"rats!"
+msgstr ""
+"Rock の息子たちよ、武器をとれ！栄光はオレたちのものだ！オレたちの部族がネズミ"
+"どもをぶっ潰すときがついに来た！"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:373
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:581
+msgid ""
+"Blackrock Clan, looters and pillagers! You shall not take our land! Begone, "
+"Traitors of Rock!"
+msgstr ""
+"Blackrock 族め、この盗人野郎の略奪者め！貴様らに、この地は奪わせん！去れ！"
+"Rock の裏切り者たち！"
+
+#. [message]: id=Trollenemy2
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:392
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:600
+msgid ""
+"You have been a spike in our side for too long. Your time is over, we have "
+"you surrounded!"
+msgstr ""
+"貴様は嫌というほど長い間、オレたちにとって邪魔者だったんだ。お前の時代は終"
+"わったのさ、お前たちは包囲されてる！"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:396
+msgid ""
+"It seems we must cut down Trolls after all, but we have too made allies. We "
+"will fight alongside you and drive the raiders from your land!"
+msgstr ""
+"結局、トロルは退治すべきだ。だが、我々には同盟者もいる。我々はともに戦い、あ"
+"の略奪者どもをあなたの土地から追い払おう！"
+
+#. [message]: speaker=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:406
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:614
+msgid "No! My people need my guidance and strength! Aargh.."
+msgstr "やめろ！オレの民には、私の導きと強さが必要なのだ！あぁぁ..."
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:410
+msgid ""
+"Without the alliance with the Trolls, the safety of our men in these lands "
+"is far from guaranteed..."
+msgstr "トロルとの同盟無しでは、この地で我々の安全は保証できない..."
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:421
+msgid "Defeat both Blackrock Clan leaders"
+msgstr "Blackrock 族の両方のリーダーを倒す"
+
+#. [objective]: condition=lose
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:433
+msgid "Death of Garogun"
+msgstr "Garogun を倒す"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:533
+msgid ""
+"You killed them? Maybe you tell the truth, Troll, but I cannot let our "
+"brothers’ deaths go unpunished. Brothers, to arms!"
+msgstr ""
+"彼らを殺したんだな？嘘ではないのだろう、トロルよ、だが、仲間たちを殺されたま"
+"ま、黙って見逃すわけにはいかない。兄弟よ、戦闘だ！"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:537
+msgid ""
+"Dulotmos, do not be so hasty! He tells the truth. Through my runes, in the "
+"earth around us, I can see the past; what happened here, I feel it all "
+"around. As much as it may seem false, what he says is true -- all of it. Our "
+"kind attacked without quarter, meaning to exterminate those which were in "
+"their way. Let us not make the same mistake."
+msgstr ""
+"Dulotmos、そう早まるな！彼は真実を語っているのだ。私のルーン文字を通して、地"
+"球上で起きた過去を見ることができる。ここで起こったこと全てを感じる。嘘だと思"
+"うかもしれないが、彼の言葉に嘘はない ― 全てにおいて。我らの種族は、容赦なく攻"
+"撃してきた。行く手を阻む者を排除するためにな。我らに同じ過ちを犯させてはなら"
+"ぬ。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:541
+msgid ""
+"I cannot let the trolls get away with the murder of our brothers and sons. I "
+"am sorry, Arolmar, but can we let the murder of our bretheren go by without "
+"retribution?"
+msgstr ""
+"トロルに兄弟や息子を殺されておきながら黙っておくことなどできない。申し訳ない"
+"が Arolmar 、兄弟殺しを見過ごせますか、報復もせずに？"
+
+#. [message]: id=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:545
+msgid ""
+"Dulotmos, I am ashamed of your judgment. I will follow you for now, but if "
+"you continue down such a dark path, I am unsure if I will be able to follow "
+"you any longer. I understand your wish for retribution, but you must grow to "
+"understand the greater need for peace and prosperity."
+msgstr ""
+"Dulotmos、お前のその判断を私は恥ずかしく思う。今はまだ君に付いていくが、こん"
+"な暗い道を歩み続けるつもりなら、これ以上付いていく自信がない。報復を望む気持"
+"ちは理解できる。だがな、平和と繁栄のためにより大きな必要性を理解すること、そ"
+"のための成長がお前には必要だ。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:549
+msgid ""
+"There cannot be peace when such vile creatures slaughter our brothers, even "
+"if it was just based on a misunderstanding. I will only instruct my men to "
+"kill the warriors. I believe, as savage as they are, the women, children and "
+"non-combatants are as harmless as they can be. As long as they do not show "
+"aggression, they shall be spared."
+msgstr ""
+"こんな卑劣な者たちが我らの兄弟たちを虐殺するようでは、平和など訪れない、たと"
+"えただの誤解から生じたことであったとしてもだ。我が戦士たちには、殺すように指"
+"示を出す、それだけだ。私が信じていることは、奴らがいかに野蛮であろうが、女性"
+"や子供たち、非戦闘員たちは悪意を持っていないだろうということだ。攻撃的な態度"
+"を取らない限り、そういう者たちの命は助かるだろう。"
+
+#. [message]: id=Trollleader
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:553
+msgid ""
+"The Dwarves have chosen war. It is a shame; but it is what has happened. We "
+"shall teach those who believe the sword to be greater than the quell a harsh "
+"lesson."
+msgstr ""
+"ドワーフは戦争を選んでしまった。遺憾に思うが、それが事実なのだ。鎮圧するより"
+"も剣で対抗する方が偉大だと信じる者たちに、冷酷な教訓を与えてやる。"
+
+#. [message]: id=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:604
+msgid ""
+"It seems we have arrived at an opportune time, then. Let us take this "
+"advantage to rid Marne of three raider leaders. Leave no fighters standing; "
+"down them all. To arms!"
+msgstr ""
+"我々は、絶好の時期に到着したようだな。よし、この好機を活かして 襲撃者の3人の"
+"リーダーを Marne から追い払ってやろう。戦士は一人残らず倒してしまえ。全隊、武"
+"器を手にとれ！"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:618
+msgid "I can only hope their next leader is not vengeful."
+msgstr "次のリーダーが復讐に拘らない者であることを願うしかない。"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:622
+msgid "If he is, he will taste steel, just as this one has."
+msgstr ""
+"もしもそういう奴なら、きっと鋼鉄を好むことだろう、今回のリーダーがそうである"
+"ように。"
+
+#. [objective]: condition=win
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:633
+msgid "Defeat all troll leaders"
+msgstr "全てのトロルのリーダーを倒す"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\scenarios\04_Troll_Domain.cfg:663
+msgid "We are just outside sight of Marne! Onwards!"
+msgstr "Marne の街がもうすぐ見えるぞ！前進せよ！"
+
+#. [unit_type]: id=Dwarvish Alchemist, race=dwarf
+#: DwarvishKingdom\units\Alchemist.cfg:5
+msgid "Dwarvish Alchemist"
+msgstr "ドワーフの錬金術師"
+
+#. [unit_type]: id=Dwarvish Alchemist, race=dwarf
+#: DwarvishKingdom\units\Alchemist.cfg:24
+msgid ""
+"The practice of Alchemy among Dwarves began as an attempt to produce gold "
+"and other valuable resources from worthless rock. A dismal failure, the "
+"practice was shunned and mocked by many. Despite that, many dwarves "
+"continued in the study and discovered ways to use their potions for healing. "
+"As a matter of tradition, any dwarf who enters the profession begins as an "
+"Alchemist and is expected to be able to make potions and clever concoctions "
+"of his own before he is allowed to learn more tricks of the trade. An "
+"Alchemist has learned the basics of the practice, and can heal wounded units "
+"around himself, while preventing poisoned units from weakening."
+msgstr ""
+"ドワーフの錬金術師（ Alchemist ）の訓練は、金や貴重な資源をただの岩石から作り"
+"出そうとすることから始まりました。その訓練は惨憺たる結果しか得られず、皆から"
+"敬遠され馬鹿にされるほどでした。それでも、それを傍目に彼らは励み続け、ポー"
+"ションを治癒薬として利用する方法を見つけたのでした。伝統の一つとして、錬金術"
+"師の職に就くと先ずはポーション作りや巧妙な薬の調合が期待されます。その後初め"
+"て商売の手口などの多くを学べるようになります。錬金術師は訓練の基礎を習得して"
+"こそ、周りにいる弱った者たちを治癒し、毒から守れるようになるのです。"
+
+#. [attack]: type=impact
+#: DwarvishKingdom\units\Alchemist.cfg:39
+#: DwarvishKingdom\units\Master_of_Alchemy.cfg:45
+#: DwarvishKingdom\units\Potion_Smith.cfg:42
+msgid "morningstar"
+msgstr "モーニングスター"
+
+#. [attack]: type=impact
+#: DwarvishKingdom\units\Alchemist.cfg:118
+#: DwarvishKingdom\units\Master_of_Alchemy.cfg:124
+#: DwarvishKingdom\units\Potion_Smith.cfg:122
+msgid "bolas"
+msgstr "ボーラ"
+
+#. [unit_type]: id=Troll Apprentice Shaman, race=troll
+#: DwarvishKingdom\units\Apprentice_Shaman.cfg:6
+msgid "Troll Apprentice Shaman"
+msgstr "トロルの見習呪術師"
+
+#. [unit_type]: id=Troll Apprentice Shaman, race=troll
+#: DwarvishKingdom\units\Apprentice_Shaman.cfg:20
+msgid ""
+"An Apprentice Shaman may once become a mystical leader of the trolls. Though "
+"not as strong or tough as other trolls, its true power lies in its fire "
+"magic, used to burn its enemies."
+msgstr ""
+"見習呪術師は、かつてはトロルの神秘的リーダーとなることができました。他のトロ"
+"ルほど強靭ではありませんが、真の力は炎の魔術にこめられ、敵を燃やすことに使わ"
+"れます。"
+
+#. [attack]: type=impact
+#: DwarvishKingdom\units\Apprentice_Shaman.cfg:31
+#: DwarvishKingdom\units\Ice_Troll.cfg:31
+#: DwarvishKingdom\units\Troll_Fire_Wizard.cfg:35
+msgid "fist"
+msgstr "拳"
+
+#. [attack]: type=fire
+#: DwarvishKingdom\units\Apprentice_Shaman.cfg:40
+#: DwarvishKingdom\units\Troll_Fire_Wizard.cfg:44
+msgid "flame blast"
+msgstr "火炎放射"
+
+#. [unit_type]: id=DK Dwarvish Arcanister
+#: DwarvishKingdom\units\Arcanister.cfg:8
+msgid "Dwarvish Arcanister"
+msgstr "ドワーフの秘儀術師"
+
+#. [attack]: type=fire
+#: DwarvishKingdom\units\Arcanister.cfg:15 DwarvishKingdom\units\Mage.cfg:43
+#: DwarvishKingdom\units\Runemaster.cfg:14
+#: DwarvishKingdom\units\Runesmith.cfg:15
+msgid "fireball"
+msgstr "ファイアボール"
+
+#. [unit_type]: id=Cave Spider
+#: DwarvishKingdom\units\Cave_Spider.cfg:14
+msgid "Cave Spider"
+msgstr "洞窟グモ"
+
+#. [unit_type]: id=Cave Spider
+#: DwarvishKingdom\units\Cave_Spider.cfg:19
+msgid ""
+"Cave Spiders roam deep under the earth, devouring many victims. They can "
+"bite at close range, thereby poisoning their enemies, and also can attack "
+"with a web at long range, slowing their foes down."
+msgstr ""
+"洞窟グモは地中深くを徘徊し、多くの犠牲者を貪り食らいます。至近距離で噛みつい"
+"て敵を毒殺します。また、遠距離ではクモの巣で攻撃して、敵の動きを鈍らせること"
+"ができます。"
+
+#. [unit_type]: id=DK Giant Scorpion, race=monster
+#: DwarvishKingdom\units\DK_Giant_Scorpion.cfg:5
+msgid "Giant Scorpion"
+msgstr "巨大サソリ"
+
+#. [unit_type]: id=DK Giant Scorpion, race=monster
+#: DwarvishKingdom\units\DK_Giant_Scorpion.cfg:34
+msgid ""
+"A normal scorpion is dangerous enough — the deadliness of one the size of a "
+"man needs little explanation."
+msgstr ""
+"普通のサソリでも十分に危険ですが... 人間ほどの体格を持った大きなサソリが生命"
+"にもたらす危険性は、もう言うまでもありません。"
+
+#. [attack]: type=pierce
+#: DwarvishKingdom\units\DK_Giant_Scorpion.cfg:39
+msgid "sting"
+msgstr "毒針"
+
+#. [attack]: type=impact
+#: DwarvishKingdom\units\DK_Giant_Scorpion.cfg:51
+msgid "pincers"
+msgstr "ハサミ"
+
+#. [unit_type]: id=DK Dwarvish Fighter
+#: DwarvishKingdom\units\Fighter.cfg:8
+msgid "Dwarvish Fighter"
+msgstr "ドワーフの戦士"
+
+#. [unit_type]: id=DK Dwarvish Flamethrower, race=dwarf
+#: DwarvishKingdom\units\Flamethrower.cfg:6
+msgid "Dwarvish Flamethrower"
+msgstr "ドワーフ火炎放射兵"
+
+#. [unit_type]: id=DK Dwarvish Flamethrower, race=dwarf
+#: DwarvishKingdom\units\Flamethrower.cfg:28
+msgid ""
+"It is said that the Dwarven Flamethrowers have strange staves of wood and "
+"iron, similar to those of the Thunderguards. But instead of making a "
+"thunderous noise shooting a projectile, their weapon generates a continuous "
+"tongue of flame."
+msgstr ""
+"ドワーフの火炎放射兵は、熟練銃撃兵の杖に似た、木と鉄でできた奇妙な杖を持って"
+"いると言われます。でも、その杖が発するのは雷鳴ではなく、まるで舌を想像させる"
+"形の炎を連続して放射します。"
+
+#. [attack]: type=blade
+#: DwarvishKingdom\units\Flamethrower.cfg:33
+msgid "dagger"
+msgstr "ダガー"
+
+#. [attack]: type=fire
+#: DwarvishKingdom\units\Flamethrower.cfg:43
+msgid "firestick"
+msgstr "雷撃棒"
+
+#. [unit_type]: id=DK Dwarvish Guardsman
+#: DwarvishKingdom\units\Guardsman.cfg:8
+msgid "Dwarvish Guardsman"
+msgstr "ドワーフの警護兵"
+
+#. [unit_type]: id=Ice Troll, race=troll
+#: DwarvishKingdom\units\Ice_Troll.cfg:6
+msgid "Ice Troll"
+msgstr "氷のトロル"
+
+#. [unit_type]: id=Ice Troll, race=troll
+#. [unit_type]: id=Troll Frost Wizard, race=troll
+#: DwarvishKingdom\units\Ice_Troll.cfg:21
+#: DwarvishKingdom\units\Troll_Frost_Wizard.cfg:19
+msgid ""
+"Few trolls choose to practice this sort of magic. Ice trolls give up their "
+"fire spells and use their magical talent to keep their inner cold alive, "
+"which they can breathe at their enemies to let them shudder in frost, making "
+"them almost unable to move. Their low body temperature also allows ice "
+"trolls to spend more energy in order to move faster than most other trolls."
+msgstr ""
+"氷結ブレス（ freezing breath ）など、この種の魔法を使用するトロルは極小数で"
+"す。氷のトロル（ Ice Troll ）は、炎の呪文は捨て去り、その才能を体内に冷気を溜"
+"め込むことに使います。冷たいその氷結ブレスを敵に吹きかけて霜で覆い尽くし、動"
+"きを鈍らせます。氷のトロルは体温が低いため、他のトロルよりも素早く移動するた"
+"めのエネルギーをより多く使用することができます。"
+
+#. [attack]: type=cold
+#: DwarvishKingdom\units\Ice_Troll.cfg:40
+#: DwarvishKingdom\units\Troll_Frost_Wizard.cfg:39
+msgid "freezing breath"
+msgstr "氷結ブレス"
+
+#. [unit_type]: id=Dwarvish Mage, race=dwarf
+#: DwarvishKingdom\units\Mage.cfg:5
+msgid "Dwarvish Mage"
+msgstr "ドワーフの魔術師"
+
+#. [unit_type]: id=Dwarvish Mage, race=dwarf
+#: DwarvishKingdom\units\Mage.cfg:19
+msgid ""
+"Mages are extremely rare among the Dwarvish people. Those who master such an "
+"art often do not ever become as powerful as their brothers in combat in "
+"melee strength but they more than make up for this in ranged ability. While "
+"they are far from the Elves or Humans in forms of magic, the most powerful "
+"Mages have gathered respect and awe from their comrades alike, earning a "
+"trust of magic rarely seen in Dwarvish culture."
+msgstr ""
+"魔術師の存在はドワーフの中では希少です。こうした魔術を習得すると、近接攻撃で"
+"は他の者ほど強力になれないことが多いのですが、遠隔攻撃では、それを補って余り"
+"あるほどの能力を発揮します。エルフや人間の魔術には及びませんが最強の魔術師は"
+"仲間たちから尊敬と畏怖を集めていて、ドワーフ文化では珍しいほどに魔法の信頼を"
+"獲得しています。"
+
+#. [attack]: type=impact
+#: DwarvishKingdom\units\Mage.cfg:33
+msgid "hammer"
+msgstr "ハンマー"
+
+#. [attack]: type=cold
+#: DwarvishKingdom\units\Mage.cfg:56
+msgid "ice blast"
+msgstr "氷結噴射"
+
+#. [unit_type]: id=Dwarvish Master of Alchemy, race=dwarf
+#: DwarvishKingdom\units\Master_of_Alchemy.cfg:6
+msgid "Dwarvish Master of Alchemy"
+msgstr "ドワーフの錬金術師"
+
+#. [unit_type]: id=Dwarvish Master of Alchemy, race=dwarf
+#: DwarvishKingdom\units\Master_of_Alchemy.cfg:29
+msgid ""
+"After having at least five decades of experience, an Alchemist may finally "
+"be able to earn the title 'Master of Alchemy', awarded yearly to elder "
+"Alchemists who have proven their worth on the battlefield. The rare few who "
+"attain this level of experience often retire to train initiate Alchemists, "
+"while some remain on the battlefield for even several more decades. Masters "
+"of Alchemy are revered by even the strongest Dwarvish Lords, and protecting "
+"a Master in battle is considered an honor for only the bravest of dwarvish "
+"warriors."
+msgstr ""
+"錬金術師は少なくとも50年の修練を経て初めて、”錬金術の達人”( Master of "
+"Alchemist ) の称号を得られます。戦場で功績を残した年配の錬金術師に、毎年授与"
+"されるものです。これほどの経験を重ねられる者は数少ないのですが、引退して若手"
+"育成に励む者や、さらに数十年を戦場で過ごす者もいます。錬金術の達人は最強のド"
+"ワーフの領主からも敬愛され、戦場でこの達人を警護することは、ドワーフの戦士で"
+"勇猛な者だけに許される名誉とされています。"
+
+#. [unit_type]: id=Dwarvish Potion Smith, race=dwarf
+#: DwarvishKingdom\units\Potion_Smith.cfg:6
+msgid "Dwarvish Potion Smith"
+msgstr "ドワーフのポーション鍛冶"
+
+#. [unit_type]: id=Dwarvish Potion Smith, race=dwarf
+#: DwarvishKingdom\units\Potion_Smith.cfg:25
+msgid ""
+"The first 'Potion Smiths' were mockingly named by rival Runesmiths who "
+"believed that devoting one's time to the study of mixing potions and leaves "
+"was a worthless endeavor. As time passed the name remained, and is now given "
+"as a title of honor to Alchemists who have advanced their skills "
+"sufficiently to earn them renown on the battlefield. Defeating the effects "
+"of poison is the accomplishment of any Alchemist who becomes a Potion Smith, "
+"and their skills make them in high demand."
+msgstr ""
+"ポーション鍛冶（ Portion Smith ）の名称は、最初はライバルのルーン鍛冶によって"
+"嘲笑的に付けられたものでした。彼は、ポーションや葉っぱの調合の勉強に時間を割"
+"くことなど、徒労に終わると信じていました。時代が過ぎてもその名称は残り、今で"
+"は、戦場で名声を得るほどに優秀な技能を向上させた錬金術師に授与される、栄誉あ"
+"る称号となりました。毒の効果を消すこと、それがポーション鍛冶となった錬金術師"
+"の仕事であり、その手腕が彼ら自身の大きな需要を生んでいるのです。"
+
+#. [unit_type]: id=DK Dwarvish Runemaster
+#: DwarvishKingdom\units\Runemaster.cfg:8
+msgid "Dwarvish Runemaster"
+msgstr "ドワーフのルーンマスター"
+
+#. [unit_type]: id=DK Dwarvish Runesmith
+#: DwarvishKingdom\units\Runesmith.cfg:8
+msgid "Dwarvish Runesmith"
+msgstr "ドワーフのルーンスミス"
+
+#. [unit_type]: id=DK Dwarvish Spearman, race=dwarf
+#: DwarvishKingdom\units\Spearman.cfg:5
+msgid "Dwarvish Spearman"
+msgstr "ドワーフの槍兵"
+
+#. [unit_type]: id=DK Dwarvish Spearman, race=dwarf
+#: DwarvishKingdom\units\Spearman.cfg:19
+msgid ""
+"Some Dwarvish Guardsmen choose, upon advancement, to not join the ranks of "
+"their colleagues in defense, but rather, focus on a more offensive approach. "
+"Such dwarves lose the defensive capabilities of their brethren, but in "
+"return, gain formidable power through the spear and javelin."
+msgstr ""
+"ドワーフの警護兵の中には、昇進したとき、防衛のために同僚たちの隊列に加わるの"
+"ではなく、更に腕を磨き攻撃面を重視する者もいます。そうしたドワーフは同僚たち"
+"の防衛力は失いますが、代わりに槍や投槍による恐るべき戦闘力を手に入れます。"
+
+#. [attack]: type=pierce
+#: DwarvishKingdom\units\Spearman.cfg:43 DwarvishKingdom\units\Spearman.cfg:55
+msgid "spear"
+msgstr "槍"
+
+#. [unit_type]: id=DK Dwarvish Thunderer
+#: DwarvishKingdom\units\Thunderer.cfg:8
+msgid "Dwarvish Thunderer"
+msgstr "ドワーフの銃撃兵"
+
+#. [unit_type]: id=Troll Fire Wizard, race=troll
+#: DwarvishKingdom\units\Troll_Fire_Wizard.cfg:6
+msgid "Troll Fire Wizard"
+msgstr "トロルの火炎魔術師"
+
+#. [unit_type]: id=Troll Fire Wizard, race=troll
+#: DwarvishKingdom\units\Troll_Fire_Wizard.cfg:30
+msgid ""
+"Troll shamans are the mystical leaders of the trolls. Though not as strong "
+"or tough as other trolls, their true power lies in their fire magic, which "
+"they use to blast enemies with gouts of fire."
+msgstr ""
+"トロルの呪術師はトロルの神秘的な指導者です。他のトロルに体力面では劣ります"
+"が、火の粉を敵に噴射する攻撃を行って、火の魔力の真価を発揮します。"
+
+#. [unit_type]: id=Troll Frost Wizard, race=troll
+#: DwarvishKingdom\units\Troll_Frost_Wizard.cfg:6
+msgid "Troll Frost Wizard"
+msgstr "トロルの氷結魔術師"
+
+#. [attack]: type=impact
+#: DwarvishKingdom\units\Troll_Frost_Wizard.cfg:30
+msgid "banner"
+msgstr "戦旗"
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\utils\utils.cfg:11
+msgid "Aargh... No! I have failed!"
+msgstr "だめだ... やられてしまった！"
+
+#. [message]: speaker=Arolmar
+#: DwarvishKingdom\utils\utils.cfg:25
+msgid "Aargh..."
+msgstr "あぁぁぁ..."
+
+#. [message]: speaker=Jeman
+#: DwarvishKingdom\utils\utils.cfg:39
+msgid "Aargh... Fight on; take our tunnels back!"
+msgstr "あぁぁぁ... 闘い続けろ、トンネルを取り戻せ!"
+
+#. [message]: speaker=Semas
+#: DwarvishKingdom\utils\utils.cfg:50
+msgid "I go to join my brothers..."
+msgstr "わが兄弟たちのもとへ行こう..."
+
+#. [message]: speaker=Garug
+#: DwarvishKingdom\utils\utils.cfg:61
+msgid "Garug won't see his homeland again..."
+msgstr "Garug は二度と祖国を見ることはないのか..."
+
+#. [message]: speaker=Dulotmos
+#: DwarvishKingdom\utils\utils.cfg:71
+msgid ""
+"We shall not reach Marne in time to save it. If only we could've been "
+"faster..."
+msgstr "Marne を救うには、間に合わない。もっと早く済ませられれば..."
+
+#. [hides]: id=fungal camouflage
+#: DwarvishKingdom\utils\utils.cfg:81 DwarvishKingdom\utils\utils.cfg:83
+msgid "fungal camouflage"
+msgstr "きのこ迷彩保護"
+
+#. [hides]: id=fungal camouflage
+#: DwarvishKingdom\utils\utils.cfg:82 DwarvishKingdom\utils\utils.cfg:84
+msgid "female^fungal camouflage"
+msgstr "きのこ迷彩保護"
+
+#. [hides]: id=fungal camouflage
+#: DwarvishKingdom\utils\utils.cfg:85 DwarvishKingdom\utils\utils.cfg:88
+msgid ""
+"This unit can hide in mushrooms, and remain undetected by its enemies.\n"
+"\n"
+"Enemy units cannot see this unit while it is in mushrooms, except if they "
+"have units next to it. Any enemy unit that first discovers this unit "
+"immediately loses all its remaining movement."
+msgstr ""
+"このユニットはキノコの中に隠れることができて、敵に発見されることはありませ"
+"ん。（伏兵と同じ能力）\n"
+"\n"
+"敵ユニットはこのユニットがキノコの中にいる間、隣接するヘクスに移動しない限"
+"り、このユニットを見つけられません。このユニットを発見した敵ユニットは直ちに"
+"その残りの移動力を失います。"
+
+# シナリオファイルの修正が必要。
+# message中に " " が使用されているため、message が分断され、後半部分が翻訳されずに、そのまま画面に表示される。
+# id 132も同様。
+#~ msgid ""
+#~ "Excerpt from the journal of Dulotmos of Garhme; 5,127 DE, 15 Y\n"
+#~ "\n"
+#~ "Arolmar insists on allowing the Troll in our company, despite my many "
+#~ "protests. It may seem harmless, but I cannot forget our mission to "
+#~ "liberate a city from its kind.\n"
+#~ "\n"
+#~ "It's begun to tell Arolmar of its people, a tribe or group called the "
+#~ msgstr ""
+#~ "Garhme の Dulotmos の日記から抜粋：5,127 DE, 15 Y\n"
+#~ "\n"
+#~ "Arolmar は、私が何度も抗議したにも関わらず、トロルを仲間に入れるよう主張し"
+#~ "ている。無害に見えるかもしれないが、トロルの類から街を解放するという我々の"
+#~ "使命を忘れるわけにはいかぬ。\n"
+#~ "\n"
+#~ "そのトロルは Arolmar に '<b>Darites</b>' という種族や集団のことを話し始め"
+#~ "た。その話の中に興味深いものもあるにはあった。ドレークや人間、エルフまでも"
+#~ "交易にまつわる話などだが、どうにも私には突飛に思えるのだ。もちろん、私にト"
+#~ "ロルの心理は分からないのだが、こんなに若いトロルがこれほど込み入った話を仕"
+#~ "立てられるとも思えない。\n"
+#~ "\n"
+#~ "おそらく Arolmar が言うように、この近辺にはトロルの集落がそこそこに発展し"
+#~ "ているのは本当だろう。この坑道ではないとしても、そういう文明の地が有るのは"
+#~ "間違いないと思う...トロルのような蛮族にそんな急激な変化が可能だとは思いた"
+#~ "くはないが。 "
